@@ -12,7 +12,7 @@ const AboutPage = () => (
 			the front end, the back end, and the side end of web development.
 		</p>
 		<p>
-			Visit my portfolio <Link to="https://anthonyzamarro.github.io/az_portfolio/">here</Link>
+			Visit my portfolio <a href="https://anthonyzamarro.github.io/az_portfolio/" target="_blank">here</a>
 		</p>
 	</Layout>
 )

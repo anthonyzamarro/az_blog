@@ -11,8 +11,7 @@ export default function Template({data}) {
 		<Layout>
 			<div>
 				<h1>{post.frontmatter.title}</h1>
-				<p>On: {post.frontmatter.date}</p>
-				<small>By: {post.frontmatter.author}</small>
+				<p>{post.frontmatter.date}</p>
 				<div dangerouslySetInnerHTML={{__html: post.html}}></div>
 			</div>
 		</Layout>
