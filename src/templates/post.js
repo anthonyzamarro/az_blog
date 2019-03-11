@@ -1,12 +1,11 @@
 import React from 'react';
-// import Header from '../components/header';
+import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-
 // import Helmet from 'react-helmet';
 
 export default function Template({data}) {
 	const { markdownRemark: post } = data;
-
+	console.log(data);
 	return (
 		<Layout>
 			<div>

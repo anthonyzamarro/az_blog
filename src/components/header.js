@@ -1,8 +1,10 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import About from '../pages/about'
-import Contact from '../pages/contact'
+// import About from '../pages/about'
+// import Contact from '../pages/contact'
+
+import "../scss/nav.scss"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -21,15 +23,19 @@ const Header = ({ siteTitle }) => (
       </h1>
       <ul>
         <Link
-          style={navLinkStyles}
+          className="nav__link nav__link-home"
           to="/"> Home
         </Link>
         <Link
-          style={navLinkStyles}
+          className="nav__link nav__link-about"
           to="/about"> About
+        </Link>
+        <Link
+          className="nav__link nav__link-projects"
+          to="/projects"> Projects
         </Link> 
         <Link
-          style={navLinkStyles}
+          className="nav__link nav__link-contact"
           to="/contact"> Contact
         </Link>
       </ul>
@@ -42,17 +48,18 @@ const headerStyles ={
   background: 'tomato',
   boxShadow: '1px 1px 1px'
 }
+
 const logoStyle = {
   color: `#333`,
   textDecoration: `none`,
 }
 
-const navLinkStyles = {
-  color: '#333',
-  textDecoration: 'none',
-  marginRight: '10px',
-  fontSize: '24px',
-}
+// const navLinkStyles = {
+//   color: '#333',
+//   textDecoration: 'none',
+//   marginRight: '10px',
+//   fontSize: '24px',
+// }
 
 const navStyles = {
   margin: `0 auto`,

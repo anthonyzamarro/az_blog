@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from "../components/seo"
 
@@ -12,7 +12,12 @@ const AboutPage = () => (
 			the front end, the back end, and the side end of web development.
 		</p>
 		<p>
-			Visit my portfolio <a href="https://anthonyzamarro.github.io/az_portfolio/" target="_blank">here</a>
+			Visit my portfolio 
+			<a 
+			href="https://anthonyzamarro.github.io/az_portfolio/" 
+			target="_blank"
+			rel="noopener noreferrer"
+			>here</a>
 		</p>
 	</Layout>
 )
