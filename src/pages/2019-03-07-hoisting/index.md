@@ -1,14 +1,14 @@
 ---
-path: '/second-post'
-title: 'Var / Let / Const: Variable Hoisting'
+path: '/hoisting'
+title: 'Hoisting'
 published: true
 author: 'Anthony'
 date: '2019-03-07'
 ---
 
-# Variable Hoisting
+# Hoisting
 
-When you declare variables or functions and then run your program, the JavaScript Engine brings all of those declarations to the top of your file for some un-godforesaken reason. This can cause big problems:
+When you declare variables or functions and then run your program, the JavaScript Engine brings all of those declarations to the top of your file for some godforesaken reason. This can cause big problems:
 ```
 console.log(k); // undefined
 

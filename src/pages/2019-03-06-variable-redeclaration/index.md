@@ -1,6 +1,6 @@
 ---
-path: '/first-post'
-title: 'Var / Let / Const: Variable Redeclaration'
+path: '/variable-redeclaration'
+title: 'Variable Redeclaration'
 published: true
 author: 'Anthony'
 date: '2019-03-06'

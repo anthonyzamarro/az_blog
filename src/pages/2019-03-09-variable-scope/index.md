@@ -1,13 +1,13 @@
 ---
-path: '/third-post'
-title: 'Var / Let / Const: Variable Scope'
+path: '/variable-scope'
+title: 'Variable Scope'
 published: true
 author: 'Anthony'
 date: '2019-03-09'
 ---
 
 
-In previous versions of JavaScript, using `var` led peculiar situations in the context of scope. Now with `let` and `const` released in ES6 there are new dynamics involved with scoping in JavaScript.
+In previous versions of JavaScript, using `var` led to peculiar situations in the context of scope. Now with `let` and `const` released in ES6 there are new dynamics involved with scoping in JavaScript.
 
 ## Variable Scope
 
