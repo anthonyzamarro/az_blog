@@ -1,12 +1,20 @@
 [
+
+  {
+    "name": "Personal Library",
+    "alt": "image of arcade game app",
+    "image": "images/arcade_game-medium_3x.png",
+    "url": "https://fcc-personal-library.herokuapp.com/",
+    "description": "A personal libary where you can enter book titles and add comments to each book",
+    "path": "project-personal-libarary"
+  },
   {
     "name": "Arcade Game",
     "alt": "image of arcade game app",
     "image": "images/arcade_game-medium_3x.png",
     "url": "https://anthonyzamarro.github.io/Arcade-Game/",
     "description": "Imagine the classic 'Frogger' game, but with bugs instead of trucks.",
-    "path": "project-arcade-game",
-    "id": "1"
+    "path": "project-arcade-game"
   },
   {
     "name": "Local Weather",
@@ -14,8 +22,7 @@
     "image": "images/local_weather-medium_3x.png",
     "url": "https://anthonyzamarro.github.io/az-local-weather/",
     "description": "See your local weather with this simple app!",
-    "path": "project-local-weather",
-    "id": "2"
+    "path": "project-local-weather"
   },  
   {
     "name": "Eat: Boston",
