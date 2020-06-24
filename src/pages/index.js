@@ -9,6 +9,7 @@ import SEO from "../components/seo"
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <div>
     <div style={{    
       maxWidth: 'calc(100% / 2)',
       margin: 'auto'
@@ -24,6 +25,7 @@ const IndexPage = ({data}) => (
       </li>
       ))}
     </ul>
+    </div>
     </div>
   </Layout>
 )

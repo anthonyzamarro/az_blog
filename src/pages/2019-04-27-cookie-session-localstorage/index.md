@@ -28,7 +28,7 @@ These are all terms you’ve probably heard before but didn’t quite know the d
 
 
 
-## Local
+## LocalStorage
 - An API to store data (up to 5mb) as a string in the user’s browser. 
 - Data is not sent back to server via HTTP request. 
 - Persists indefinitely until explicitly deleted via JavaScript or user clearing browser application storage. 
